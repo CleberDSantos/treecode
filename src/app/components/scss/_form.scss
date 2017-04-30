@@ -1,0 +1,92 @@
+
+/***********************************/
+
+
+/**            TAX FORMS            **/
+
+
+/***********************************/
+
+// Start form CSS
+.taxyear {
+  text-align: center;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  span {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+}
+
+.form-field {
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .sub-title {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  .form-blue {
+    background: rgba(0, 100, 100, 0.05);
+    padding: 10px 25px;
+    .no-overflow {
+      overflow: hidden;
+      white-space: nowrap;
+      .dots-tab {
+        margin-left: 2em;
+        display: inline;
+      }
+    }
+    .input-group {
+      margin: 4px 0;
+      .input-group-addon {
+        background: none;
+        width: 50px;
+        font-weight: 600;
+      }
+    }
+    .input-sub-number {
+      width: 50px !important;
+    }
+  }
+  .number {
+    float: left;
+    font-weight: 600;
+    height: 30px;
+    width: 30px;
+  }
+  .question {
+    box-sizing: content-box;
+    margin-left: 40px;
+  }
+  .abc-checkbox {
+    display: inline;
+     ::before {
+      top: 6px;
+    }
+     ::after {
+      top: 3px;
+    }
+  }
+  .inline-check {
+    position: relative;
+    left: 10px;
+    top: -10px;
+  }
+}
+
+.bottom-divider {
+  border-bottom: 1px solid #c9cbcb;
+}
+
+.widget header {
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}

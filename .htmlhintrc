@@ -1,0 +1,10 @@
+{
+  "spec-char-escape": true,
+  "src-not-empty": true,
+  "title-require": true,
+  "attr-value-double-quotes": true,
+  "attr-no-duplication": true,
+  "tag-pair": true,
+  "tagname-lowercase": false,
+  "tag-self-close": true
+}

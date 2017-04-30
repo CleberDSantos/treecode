@@ -1,0 +1,18 @@
+@import "../../../../node_modules/@angular/material/core/theming/prebuilt/indigo-pink.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+@mixin md-control-disabled-underline {
+  border: 0 !important; //to override default border around input box
+}
+
+.md-disabled-underline .md-input-underline {
+    @include md-control-disabled-underline();
+}
+
+md-input-container .md-input-wrapper {
+    margin: 0 !important; //to override default material margin around input box
+}
+
+md-input .md-focused {
+    width: 95% !important; //focus within the input box
+}
